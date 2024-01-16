@@ -1,0 +1,189 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Poppins' !important;
+}
+
+body {
+  background-color: #F1EEE4 !important;
+}
+
+.root {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  padding: 0;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.left {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+.right {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
+
+.css-i9fmh8-MuiBackdrop-root-MuiModal-backdrop {
+  background-color: transparent !important;
+}
+
+.css-4t3x6l-MuiPaper-root-MuiDrawer-paper {
+  box-shadow: none !important;
+  background-color: transparent !important;
+}
+
+.css-1mbunh-MuiPaper-root {
+  padding: 2% !important;
+  border-radius: 25px !important;
+  border-bottom: 0px !important;
+  box-shadow: none !important
+}
+
+div:where(.swal2-container) button:where(.swal2-styled).swal2-confirm {
+  background-color: #2c2c2c !important
+}
+
+.css-1ex1afd-MuiTableCell-root {
+  padding: 27px 22px !important;
+}
+
+.css-2ulfj5-MuiTypography-root {
+  font-weight: 600 !important;
+  font-family: 'Poppins' !important;
+}
+
+.css-1160xiw-MuiPaper-root-MuiDrawer-paper {
+  margin: 0 !important;
+  box-shadow: none;
+  padding: 0 !important;
+}
+
+.react-calendar {
+  width: 100% !important;
+  max-width: 100% !important;
+  background-color: #fff !important;
+  color: #222 !important;
+  border-radius: 8px !important;
+  box-shadow: 0px 10px 20px #d9d9d9 !important;
+  font-family: Arial, Helvetica, sans-serif !important;
+  line-height: 1.125em !important;
+}
+
+.react-calendar__navigation button {
+  color: #2c2c2c !important;
+  min-width: 44px !important;
+  background: none !important;
+  font-size: 16px !important;
+  margin-top: 8px !important;
+}
+
+.react-calendar__navigation button:enabled:hover,
+.react-calendar__navigation button:enabled:focus {
+  background-color: #f8f8fa !important;
+}
+
+.react-calendar__navigation button[disabled] {
+  background-color: #f0f0f0 !important;
+}
+
+abbr[title] {
+  text-decoration: none !important;
+}
+
+/* .react-calendar__month-view__days__day--weekend {
+  color: #d10000 !important;
+ } */
+.react-calendar__tile:enabled:hover,
+.react-calendar__tile:enabled:focus {
+  background: #f8f8fa !important;
+  color: #2c2c2c !important;
+  border-radius: 6px !important;
+}
+
+.react-calendar__tile--now {
+  background: #2c2c2c33 !important;
+  border-radius: 6px !important;
+  font-weight: bold !important;
+  color: #2c2c2c !important;
+}
+
+.react-calendar__tile--now:enabled:hover,
+.react-calendar__tile--now:enabled:focus {
+  background: #2c2c2c33 !important;
+  border-radius: 6px !important;
+  font-weight: bold !important;
+  color: #2c2c2c !important;
+}
+
+.react-calendar__tile--hasActive:enabled:hover,
+.react-calendar__tile--hasActive:enabled:focus {
+  background: #f8f8fa !important;
+}
+
+.react-calendar__tile--active {
+  background: #2c2c2c !important;
+  border-radius: 6px !important;
+  font-weight: bold !important;
+  color: white !important;
+}
+
+.react-calendar__tile--active:enabled:hover,
+.react-calendar__tile--active:enabled:focus {
+  background: #2c2c2c !important;
+  color: white !important;
+}
+
+.react-calendar--selectRange .react-calendar__tile--hover {
+  background-color: #f8f8fa !important;
+}
+
+.react-calendar__tile--range {
+  background: #f8f8fa !important;
+  color: #2c2c2c !important;
+  border-radius: 0 !important;
+}
+
+.react-calendar__tile--rangeStart {
+  border-top-right-radius: 0 !important;
+  border-bottom-right-radius: 0 !important;
+  border-top-left-radius: 0 !important;
+  border-bottom-left-radius: 0 !important;
+  background: #2c2c2c !important;
+  color: white !important;
+}
+
+.react-calendar__tile--rangeEnd {
+  border-top-left-radius: 0 !important;
+  border-bottom-left-radius: 0 !important;
+  border-top-right-radius: 0 !important;
+  border-bottom-right-radius: 0 !important;
+  background: #2c2c2c !important;
+  color: white !important;
+}
+
+.react-calendar {
+  border: none !important;
+  padding: 5% !important;
+  border-radius: 15px !important;
+  box-shadow: 0px 5px 20px #d9d9d9 !important;
+}
+
+.css-zow5z4-MuiGrid-root>.MuiGrid-item {
+  padding-top: 0 !important;
+}
+
+
+.css-3dzjca-MuiPaper-root-MuiPopover-paper-MuiMenu-paper {
+  box-shadow: none !important;
+  width: fit-content !important;
+}
